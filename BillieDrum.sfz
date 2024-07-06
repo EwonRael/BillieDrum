@@ -1,0 +1,59 @@
+//  sfz definition file
+
+<global>loop_mode=one_shot
+
+<region>key=35 sample=kick alt.wav
+<region>key=37 sample=side stick.wav pan=-15
+<region>key=39 sample=clap.wav pan=30
+<region>key=40 sample=snare electric.wav
+<region>key=41 sample=toms/lowfloor.wav
+<region>key=43 sample=toms/highfloor.wav
+<region>key=45 sample=toms/low.wav pan=-30
+<region>key=46 sample=hihat open.wav pan=-15 off_by=11
+<region>key=47 sample=toms/middle.wav pan=-15
+<region>key=48 sample=toms/high.wav pan=15
+<region>key=49 sample=crash.wav pan=-15
+<region>key=50 sample=toms/superhigh.wav pan=30
+<region>key=51 sample=ride.wav pan=15
+<region>key=60 sample=bongo high.wav pan=-30
+<region>key=61 sample=bongo low.wav pan=-15
+<region>key=62 sample=conga high.wav
+<region>key=63 sample=conga.wav pan=15
+<region>key=64 sample=conga low.wav pan=30
+
+<group> key=36 seq_length=6
+	<region>seq_position=1 sample=kick/01.wav
+	<region>seq_position=2 sample=kick/02.wav
+	<region>seq_position=3 sample=kick/03.wav
+	<region>seq_position=4 sample=kick/04.wav
+	<region>seq_position=5 sample=kick/05.wav
+	<region>seq_position=6 sample=kick/06.wav
+<group> key=38 seq_length=6
+	<region>seq_position=1 sample=snare/01.wav
+	<region>seq_position=2 sample=snare/02.wav
+	<region>seq_position=3 sample=snare/03.wav
+	<region>seq_position=4 sample=snare/04.wav
+	<region>seq_position=5 sample=snare/05.wav
+	<region>seq_position=6 sample=snare/06.wav
+<group>group=11 key=42 pan=-15 seq_length=3
+	<region>seq_position=1 sample=hihat closed/01.wav
+	<region>seq_position=2 sample=hihat closed/02.wav
+	<region>seq_position=3 sample=hihat closed/03.wav
+<group>group=11 key=44 pan=-15 seq_length=3
+	<region>seq_position=1 sample=hihat pedal/01.wav
+	<region>seq_position=2 sample=hihat pedal/02.wav
+	<region>seq_position=3 sample=hihat pedal/03.wav
+<group> key=69 seq_length=6 pan=-15
+	<region>seq_position=1 sample=cabassa/01.wav
+	<region>seq_position=2 sample=cabassa/02.wav
+	<region>seq_position=3 sample=cabassa/03.wav
+	<region>seq_position=4 sample=cabassa/04.wav
+	<region>seq_position=5 sample=cabassa/05.wav
+	<region>seq_position=6 sample=cabassa/06.wav
+<group> key=70 seq_length=6 pan=15
+	<region>seq_position=1 sample=shaker/01.wav
+	<region>seq_position=2 sample=shaker/02.wav
+	<region>seq_position=3 sample=shaker/03.wav
+	<region>seq_position=4 sample=shaker/04.wav
+	<region>seq_position=5 sample=shaker/05.wav
+	<region>seq_position=6 sample=shaker/06.wav
