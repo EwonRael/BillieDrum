@@ -15,6 +15,7 @@
 <region>key=49 sample=crash.wav pan=-15
 <region>key=50 sample=toms/superhigh.wav pan=30
 <region>key=51 sample=ride.wav pan=15
+<region>key=56 sample=cowbell.wav pan=-30
 <region>key=60 sample=bongo high.wav pan=-30
 <region>key=61 sample=bongo low.wav pan=-15
 <region>key=62 sample=conga high.wav
